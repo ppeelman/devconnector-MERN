@@ -28,4 +28,8 @@ _left-hand menu_ > SECURITY > Network Access
 
 For a real application, whitelist your **own IP address**
 
-## Mongoose
+## Dependencies
+
+- **express**: a server-side web framework for Node.js (https://expressjs.com/)
+- **config**: create default parameters stored in configuration files (config/default.json); extend them for different deployment environments (development, QA, staging, production) (https://www.npmjs.com/package/config)
+- **mongoose**: acts as an intermediate between MongoDB and a server-side language like Node.js (https://mongoosejs.com/docs/index.html)
