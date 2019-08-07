@@ -3,7 +3,7 @@ const config = require('config');
 
 const db = config.get('mongoURI');
 
-mongoose.connect(db, { useNewUrlParser: true });
+mongoose.connect(db, { useNewUrlParser: true, useCreateIndex: true });
 
 const connectDB = async () => {
   try {
