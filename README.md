@@ -35,7 +35,8 @@ For a real application, whitelist your **own IP address**
 - **mongoose**: acts as an intermediate between MongoDB and a server-side language like Node.js (https://mongoosejs.com/docs/index.html)
 - **express-validator**: Express middleware to validate request/response values (https://express-validator.github.io/docs/)
 - **gravatar**: generate gravatar (globally recognized avatars linked to a user's email address) URLs in Node.js based on gravatar specs (https://www.npmjs.com/package/gravatar)
-- **bcrypt**:
+- **bcrypt**: encryption method used to encrypt passwords. It uses a variant of the Blowfish encryption algorithm's keying schedule, and introduces a work factor, which allows you to determine how expensive the hash function will be. (https://www.npmjs.com/package/bcrypt)
+- **json-web-token**:
 
 ## Mongoose
 
@@ -178,3 +179,7 @@ Documentation:
 - https://www.npmjs.com/package/bcrypt
 - https://codahale.com/how-to-safely-store-a-password/
 - https://en.wikipedia.org/wiki/Bcrypt
+
+## JSON Web Token
+
+What are JSON web tokens? https://jwt.io/
